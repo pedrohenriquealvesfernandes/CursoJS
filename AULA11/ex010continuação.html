@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+    
+    </style>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Aonde você nasceu ? <br>
+    <input type="text" name="paises" id="paises">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function verificar() {
+            var paises = window.document.querySelector('input#paises')
+            var res = window.document.querySelector('div#res')
+            var pais = paises.value.toLowerCase()
+            res.innerHTML = `<p>Você nasceu no(a) ${pais}!!</p>`
+
+            if (pais == "Brasil".toLowerCase()||pais == "Brazil".toLowerCase()){ //adicionar lowerCase quando for adicionar as variaveis
+            res.innerHTML +=`<p>Você é brasileiro</p>` // Adicionar Template String
+        }
+        else {
+            res.innerHTML +=`<p>Você não é brasileiro</p>` // Adicionar Template String
+
+        }
+
+        }
+        
+
+    </script>
+
+</body>
+</html>

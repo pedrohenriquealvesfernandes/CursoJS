@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+    font:normal 18pt Arial;
+}
+
+header{
+    color:white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px; /* Para arredondar a borda */
+    padding: 15px; /* Aumentar o espaço*/
+    width: 500px; /*aumentar a largura*/
+    margin: auto; /* centralizar um campo */
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.288);
+
+}
+
+footer{
+    color:white;
+    text-align:center;
+    font-style: italic;
+}
