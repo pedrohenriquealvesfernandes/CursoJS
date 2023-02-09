@@ -7,5 +7,5 @@ peso: 85.4,
 
     }
  }
- amigo.engordar(4)
- console.log(`O peso de ${amigo.nome} é ${amigo.peso} Kg`)
+ amigo.engordar(0)
+ console.log(`O peso de ${amigo.nome} é ${amigo.peso} Kilos`)
